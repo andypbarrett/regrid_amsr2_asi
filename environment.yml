@@ -1,0 +1,16 @@
+name: polarstereo-convert
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python ~=3.6
+  - numpy ~=1.21.2
+  - flake8 ~=3.9
+  - pytest ~=6.2
+  - xarray
+  - netcdf4
+  - pyproj
+  - rioxarray
+  - matplotlib
+  - cartopy
+  - jupyterlab
